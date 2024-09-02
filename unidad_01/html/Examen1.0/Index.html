@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Recetas</title>
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+    <header>
+        <h1>Recetas Nuevo</h1>
+    </header>
+    <main>
+        <form id="formulario-receta">
+            <div class="form-group">
+                <label for="input-nombre">Nombre de la receta</label>
+                <input type="text" id="input-nombre" placeholder="Nombre de la receta" required>
+            </div>
+            <div class="form-group">
+                <label for="input-descripcion">Descripción de la receta</label>
+                <input type="text" id="input-descripcion" placeholder="Descripción" required>
+            </div>
+            <button type="submit"><i class="fas fa-plus"></i> Agregar Receta</button>
+        </form>
+        <ul id="lista-recetas">
+        </ul>
+    </main>
+    <script src="js/java.js"></script>
+</body>
+</html>
