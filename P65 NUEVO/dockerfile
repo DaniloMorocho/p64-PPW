@@ -1,0 +1,5 @@
+from node:22
+run mkdir -p /home/app
+copy . /home/app
+expose 3000
+cmd ["node","/home/app/server.js"]

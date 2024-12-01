@@ -1,4 +1,4 @@
-const Ciudad = require('./model');
+const Ciudad = require('./modelo');
 
 async function insertar(dato) {
     try {
